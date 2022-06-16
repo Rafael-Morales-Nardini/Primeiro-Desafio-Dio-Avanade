@@ -1,0 +1,83 @@
+/*ID x Class
+
+Id e Class são elementos utilizados para que se possa apontar diferentes elementos dentro do site para customização se utilizando do CSS como ferramenta.
+
+O ID é repesentado pelo simbolo # (hash) seguido do nome desse ID
+
+A classe é repesentada por um . (ponto) em seguida de seu nome
+
+A diferença mais importante entre eles é a forma como devem ser usados: O ID só pode aparecer uma vez, enquanto a Classe não tem limite de uso.
+
+
+
+Box Model
+
+Quando está se criando o layout de um site ou navegador, cada elemento HTML está compreendido dentro de uma caixa retangular. Com o uso do CSS, é possivel alterar a aparência dessa caixa (Largura, altura, cor de fundo, espaçamento, etc.) e a caixa possui 4 áreas: Conteúdo, padding, borda e margem
+
+-A margem é o espaçamento entre elementos
+-A borda é a extremidade da superficie, beira, beirada.
+-padding é o espaço entre as bordas e o conteúdo, a diferença para margens é que imagens de plano de fundo funcionam nele.
+-conteúdo é o que o bloco representa, sendo um texto, imagem, vídeo.
+
+
+Padding x Margin
+
+padding - Pode ser estilizado individualmente, primeiro colocando o tamanho da borda superior e inferior, posteriormente a borda esquerda e direita no caso da inserção de dois valores.
+Para 4 valores, segue a ordem: Topo, Direita, Baixo, Esquerda.
+
+
+
+Background
+
+O background é uma propriedade que tambem é atalho para várias customizações, como por exemplo, mudança da cor do fundo, adição de imagens no plano de fundo, e tambem mudança do posicionamento.
+
+
+Border
+
+A propriedade de borda pode ter 3 valores: Largura, cor e estilo. A cor pode ser atribuida por nome ou código hexadecimal, e o estilo é representado por palavras chaves, que são: 
+
+solid: Mostra uma borda símples e reta
+
+dotted: Bolinhas com um pequeno espaçamento entre elas
+
+dashed: Faz uma linha tracejada
+
+border-radius: Arredonda os cantos do elemento
+se utilizado em 50%, se cria um circulo.
+
+Segundo a mesma ordem no padding, é possivel alterar individualmente os valores dentro da borda.
+
+
+
+Font
+
+
+font-family é utilizado para que se altere a fonte do texto que está sendo estilizado, seja com uma fonte da máquina que está sendo utilizada, ou da Web
+
+font-size é utilizado para alterar o tamanho de exibição do texto
+
+font-style é usado para alteração do tipo da fonte, podendo ser colocado como itálico, normal ou negrito.
+
+text-transform é uma ferramenta que transforma o texto por inteiro, podendo transformar todo o texto em maiúsculo (uppercase), minúsculo (lowercase), ou até colocar maiúsculas em todas as primeiras letras (capitalize).
+
+text-decoration tem a função de estilizar o texto podendo decora-lo sublinhando-o (underline), colocando uma linha acima das letras (overline) ou cortando as letras com uma linha (line-through)
+
+
+
+Estilização de listas
+
+list-style-type é utilizado para estilização do icone que aparece antes de cada termo em uma lista, podendo ser quadrados (square), algarismos romanos maiúsculos (upper-roman), ou simbolos por exemplo ("\1F44D"), imagens (url("link")) entre outros.
+
+
+
+Dimensão e Alinhamentos
+
+Width - Largura
+Height - Altura
+
+Max-width - Largura máxima que o elemento pode ter
+Max-height - Altura máxima que o elemento pode ter
+
+Margin - Espaçamento entre elementos (pode se utilizar o valor auto para que fique por igual dos lados)
+
+text align - vem junto a uma direção a qual o texto estará alinhado (right, left, center).
